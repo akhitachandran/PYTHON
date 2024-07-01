@@ -1,0 +1,70 @@
+choice=input("enter your choice(Breakfast(B),Lunch(L),Dinner(D)): ");
+#BREAKFAST
+if(choice=="B"):
+  print("What would you like for breakfast?\n");
+  cuisine=input("Enter the cuisine(North-Indian(NI)/South-Indian(SI))");
+  if(cuisine=="NI"):
+    food=input("Select your choice of food:(Poha(P),Samosa(S))");
+    if(food=="P"):
+      print("You have ordered Poha!");
+    elif(food=="S"):
+      print("You have ordered Samosa!");
+    else:
+      print("ENTER VALID VALUE!");
+  elif(cuisine=="SI"):
+    food=input("Select your choice of food:(Dosa(D),Idli(I))");
+    if(food=="D"):
+      print("You have ordered Dosa!");
+    elif(food=="I"):
+      print("You have ordered Idli!");
+    else:
+      print("ENTER VALID VALUE!");
+  else:
+    print("ENTER VALID VALUE!");
+#LUNCH
+elif(choice=="L"):
+  print("What would you like for lunch?\n");
+  cuisine=input("Enter the cuisine(North-Indian(NI)/South-Indian(SI))");
+  if(cuisine=="NI"):
+    food=input("Select your choice of food:(Dal-Chawal(DC),Roti-Bhaji(RB))");
+    if(food=="DC"):
+      print("You have ordered Dal-Chawal!");
+    elif(food=="RB"):
+      print("You have ordered Roti-Bhaji!");
+    else:
+      print("ENTER VALID VALUE!");
+  elif(cuisine=="SI"):
+    food=input("Select your choice of food:(Rice-Sambar(RS),Curd-Rice(CR))");
+    if(food=="RS"):
+      print("You have ordered Rice-Sambar!");
+    elif(food=="CR"):
+      print("You have ordered Curd-Rice!");
+    else:
+      print("ENTER VALID VALUE!");
+  else:
+    print("ENTER VALID VALUE!");
+#DINNER
+elif(choice=="D"):
+  print("What would you like for dinner?\n");
+  cuisine=input("Enter the cuisine(North-Indian(NI)/South-Indian(SI))");
+  if(cuisine=="NI"):
+    food=input("Select your choice of food:(Veg-Thali(VT),Biryani(B))");
+    if(food=="VT"):
+      print("You have ordered Veg-Thali!");
+    elif(food=="B"):
+      print("You have ordered Biryani!");
+    else:
+      print("ENTER VALID VALUE!");
+  elif(cuisine=="SI"):
+    food=input("Select your choice of food:(Rice-Sambar(RS),Hyderabadi Biryani(HB))");
+    if(food=="RS"):
+      print("You have ordered Rice-Sambar!");
+    elif(food=="HB"):
+      print("You have ordered Hyderabai Biryani!");
+    else:
+      print("ENTER VALID VALUE!");
+  else:
+    print("ENTER VALID VALUE!");
+else:
+   print("ENTER VALID VALUE!");
+print("\nTHANK YOU !!")
